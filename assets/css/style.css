@@ -27,3 +27,19 @@
     background-color: #42096e;
     color: white; 
 }
+
+
+.card-header--orange {
+    background-color: orange;
+    color: white;
+}
+
+.card-header--red {
+    background-color: red;
+    color: white;
+}
+
+.card-header--yellow {
+background-color: #f8e134;
+color: white;
+}
