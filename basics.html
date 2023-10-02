@@ -7,11 +7,15 @@
     <title>Karate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/89fa774aea.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
+        <!------------------Nav bar----------------->
         <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -38,10 +42,149 @@
         </nav>
     </header>
 
+    <!-- <div class="card">
+        <div class="card-header">
+          White Belt Grading Syllabus
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Punches</h4>
+          <h5 class="card-title">Oi Zuki</h5>
+          <p class="card-text">Stepping punch</p>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Blocks</h4>
+            <h5 class="card-title">Age-uke</h5>
+            <p class="card-text">Rising block</p>
+            <h5 class="card-title">Soto-uke</h5>
+            <p class="card-text">Outside block</p>
+            <h5 class="card-title">Uchi-uke</h5>
+            <p class="card-text">Inside block</p>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Kicks</h4>
+            <h5 class="card-title">Mae-geri</h5>
+            <p class="card-text">Front kick</p>
+          </div>
+      </div> -->
+
+
+    <div class="container">
+        <h2>Karate Basics</h2>
+
+        <ul class="nav nav-tabs">
+            <li class="active nav-item"><a class="nav-link" data-bs-toggle="tab" href="#punch">Punches</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#kick">Kicks</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#block">Blocks</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#combo">Combinations</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active">
+                Here are the basic moves you need to learn for each belt:
+            </div><br>
+<!------------Punches------------>
+            <div id="punch" class="tab-pane fade" role="tabpanel">
+                <div>
+                    <h5 class="h5--orange">White to Orange</h5>
+                    <p><strong>Oi Zuki </strong>Stepping punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--red">Orange to Red</h5>
+                    <p><strong>Gyaku Zuki </strong>Reverse punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--yellow">Red to Yellow</h5>
+                    <p><strong>Sanbon Tsuki </strong>Triple punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--green">Yellow to Green</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+                <div>
+                    <h5 class="h5--purple">Green to Purple</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+            </div>
+<!------------Kicks------------>
+            <div id="kick" class="tab-pane fade" role="tabpanel">
+                <div>
+                    <h5 class="h5--orange">White to Orange</h5>
+                    <p><strong>Mae-geri </strong> Front kick</p>
+                </div>
+                <div>
+                    <h5 class="h5--red">Orange to Red</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+                <div>
+                    <h5 class="h5--yellow">Red to Yellow</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+                <div>
+                    <h5 class="h5--green">Yellow to Green</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+                <div>
+                    <h5 class="h5--purple">Green to Purple</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+            </div>
+<!------------Blocks------------>
+            <div id="block" class="tab-pane fade" role="tabpanel">
+                <div>
+                    <h5 class="h5--orange">White to Orange</h5>
+                    <p><strong>Age-uke </strong>Rising block</p>
+                    <p><strong>Soto-uke </strong>Outside block</p>
+                    <p><strong>Uchi-uke </strong>Inside block</p>
+                </div>
+                <div>
+                    <h5 class="h5--red">Orange to Red</h5>
+                    <p><strong>Soto-uke </strong>Outside block</p>
+                </div>
+                <div>
+                    <h5 class="h5--yellow">Red to Yellow</h5>
+                    <p><strong>Uchi-uke </strong>Inside block</p>
+                </div>
+                <div>
+                    <h5 class="h5--green">Yellow to Green</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+                <div>
+                    <h5 class="h5--purple">Green to Purple</h5>
+                    <p><strong>Sanbon Tsuki </strong></p>
+                </div>
+            </div>
+<!------------Combinations------------>
+            <div id="combo" class="tab-pane fade" role="tabpanel">
+                <div>
+                    <h5 class="h5--orange">White to Orange</h5>
+                    <p>Oi Zuki - Stepping punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--red">Orange to Red</h5>
+                    <p>Gyaku Zuki - Reverse punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--yellow">Red to Yellow</h5>
+                    <p>Sanbon Tsuki - Triple punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--green">Yellow to Green</h5>
+                    <p>Sanbon Tsuki - Triple punch</p>
+                </div>
+                <div>
+                    <h5 class="h5--purple">Green to Purple</h5>
+                    <p>Sanbon Tsuki - Triple punch</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

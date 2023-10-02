@@ -1,0 +1,29 @@
+
+.belt--orange {
+    height: 100px;
+}
+
+.h5--orange {
+    background-color: orange;
+    color: white;
+}
+
+.h5--red {
+    background-color: red;
+    color: white;
+}
+
+.h5--yellow {
+    background-color: #f8e134;
+    color: white;
+}
+
+.h5--green {
+    background-color: #008c28;
+    color: white; 
+}
+
+.h5--purple {
+    background-color: #42096e;
+    color: white; 
+}
